@@ -1,0 +1,206 @@
+.navbar-default{
+  background-color: #1a5077;
+  border: 0px;
+  border-radius: 0px;
+  height: 100px !important;
+}
+
+.navbar-header{
+  margin-top: 25px;
+}
+
+.navbar-nav{
+  margin-top: 25px;
+}
+
+.navbar-brand{
+  color: white !important;
+  font-family: 'Merienda One' !important;
+}
+
+.navbar-right{
+  font-family: 'Rum Raisin' !important;
+  
+}
+
+.navbar-right li a{
+  color: white !important;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+
+.navbar-right li a:hover{
+  background-color: #081c2b !important;
+  transition: 0.2s;
+}
+
+.active a{
+  background-color: #081c2b !important;
+}
+
+/* .about-me{
+  background-color: #081c2b;
+  height: 500px;
+} */
+
+
+
+#about-me-shape {
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+	border-top: 650px solid #081c2b;
+	height: 0;
+  margin-top: 100px;
+}
+
+#about-me{
+  margin-top: -650px;
+  height: 650px;
+}
+
+.dpic{
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.about-text p{
+  color: white;
+  text-align: center;
+  font-family: 'Merienda One';
+}
+
+.about-text p:nth-child(1){
+  font-size: 1.2em;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.containerbg{
+  background-color: #1a5077;
+}
+
+.about-text ul{
+  list-style-type: none;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-text ul li{
+  display: inline-block;
+  height: 75px;
+  width: 80px;
+}
+
+.about-text ul li img{
+  height: 50px;
+  width: 50px;
+}
+
+#portfolio{
+  height: 700px;
+  width: 100%;
+  margin: 0 auto;  
+}
+
+body{
+  background-color: #DEDEDE;
+}
+
+#portfolio h1{
+  color: white;
+  font-family: 'Merienda One';
+  text-align: center;
+  margin: 30px 0px;
+}
+
+#portfolio img{
+  width: 400px;
+  height: 330px;
+  border: 2px solid black;
+}
+
+.portfoliocontainer{
+  background-color: #1a5077;
+}
+
+.container{
+  padding: 0px;
+}
+
+.col-md-4{
+  width: 385px;
+}
+
+
+#contact-me-shape {
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+	border-bottom: 650px solid #081c2b;
+	height: 0;
+  margin-top: 50px;
+}
+
+#contact-me{
+  margin-top: -650px;
+  height: 620px;
+}
+
+#contact-me h1{
+  color: white;
+  font-family: 'Merienda One';
+  text-align: center;
+  margin: 30px 0px;
+}
+
+#contact-me p{
+  color: white;
+  font-family: 'Merienda One';
+  text-align: center;
+  margin: 30px 0px;
+  line-height: 3;
+}
+
+#contact-me h3{
+  color: white;
+  font-family: 'Merienda One';
+  text-align: center;
+}
+
+#contact-me form{
+  width: 500px;
+  margin: 0 auto;
+}
+
+#contact-me ul{
+  list-style-type: none;
+  width: 350px;
+  margin: 0 auto;
+}
+
+#contact-me ul li{
+  display: inline-block;
+  padding: 0px 10px;
+  color: white;
+  font-size: 3em;
+}
+
+#contact-me hr{
+  width: 500px;
+  margin-top: 40px;
+}
+
+footer{
+  height: 50px;
+  background-color: #1a5077;
+}
+
+footer p{
+  text-align: center;
+  color: white;
+  line-height: 2;
+  padding-top: 10px;
+}
